@@ -1,0 +1,21 @@
+Programacao em C++:
+
+	Anotações em C++:
+
+		-cout << imprime,
+		-cin >> recebe um argumento,
+		-getline (cin, nome variável) recebe vários argumentos,
+		-.lenght() ler o cumprimento de uma variável.
+
+	Sobre Máximo e Mínimo:
+
+		-max(5,10) retorna o maior entre a comparação,
+		-min(5,10) retorna o mínimo entra a comparação.
+
+	Biblioteca <cmath>
+
+		-sqrt(64) retorna a raiz de 64,
+		-round(2.6) arredonda um número,
+		-log(2) retorna o logaritmo de 2.
+
+	//parei em classes/Objects

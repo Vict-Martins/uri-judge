@@ -1,0 +1,90 @@
+Programação em JavaScript:
+
+	-Alertas Básicos:
+	
+		-window.alert('MENSAGEM') Criar alerta,
+		-window.confirm('MENSAGEM') Cria caixa dialogo opções,
+		-window.prompt('MENSAGEM') Cria caixa espera retorno.
+
+	-Typeof, TipoDeDado:
+
+		-Tipos: number, string, boolean, null, undefined, object, fuction.
+
+	-Casting:
+
+		-Number(),
+		-String(n),
+		-n.toString().
+
+
+	-Concatenação e Templete String:
+
+		- ' Oalumo ' + nome + ' com ' + idade + ' tirou ' + nota, 
+		- ` O aluno ${nome} com ${idade} anos tirou a nota ${nota} `.
+
+	-Contagem de caracteres:
+
+		-.lenght.
+
+	-Fixagem:
+
+		- .toFixed(n) Fixa o numero de casas decimais.
+	
+	Substituição:
+
+		- .toFixed(n).replace('.', ',').
+
+
+	-Identação monetária Brasil:
+
+		-n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}).
+
+	-Transformação maiúscula e minúscula:
+
+		-document.write(`Seu nome em maiúsculo é ${nome.toLocaleUpperCase()},`),
+		-document.write(`Seu nome em maiúsculo é ${nome.toLocaleLowerCase()},`) .
+
+	-Tipos de operadores:
+
+		-Tipos: Aritméticos, atribuição, relacionais, lógicos, ternários,
+		-Operador de potência: '**', modo de utilização: 5**2,
+		-Operador de identidade restrita: ===, testa o tipoDeDado e o grandeza. Ex: 5 === '5', false, 5===5, true,
+		-Ordem de procedência dos operadores: () ,** ,* ,/ , %, +, - .
+
+	-Dom-Document Object Model:
+
+		Tipos de acessos:
+
+	-Marca
+		
+		-ID,
+		-Nome,
+		-Classe,
+		-Seletor.
+
+	-Por marca:
+
+		getElementsBy().
+
+	-Comandos:
+
+		- "nomeParagrafo".style.color = ' '   mudar a cor do paragrafo especificado,
+		- "nomeDaSessão".style.background = ' ' muda a cor da sessão especificada,
+		- ''nomeDaVariável".innerText importa o texto que estar contido na variável. innerHTML importa o texto e a formatação.
+
+	-Queryselector:
+
+		-window.document.querySelector('div#'nomeDaTag').
+
+	-EventosJava:
+
+		-mouseenter,
+		-mousemove,
+		-mousedown,
+		-mouseup,
+		-click,
+		-mouseout,
+		-observação: existem outros eventos.
+
+	
+	

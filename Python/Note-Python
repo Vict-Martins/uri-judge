@@ -1,0 +1,72 @@
+-Dicas:
+
+'oi' + 'olá'
+	'oiolá'
+
+'oi'*5
+	'oioioioioi'
+
+'='*20
+	'==================='
+
+end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
+
+-Alinhamento e delimitação no print:
+	
+	-print("""oi""") imprime uma cadeia de caracteres em diversas linhas.
+	-({:20}) limite de string no print
+	-({:>20}) limite com alinhamento a direita, também pode ser feito a esquerda <.
+	-({:=^20} limitador, saída: =======victor=======.
+
+-Importação no python:
+	
+	-import , importada toda uma biblioteca
+	-frommathimportsqrt importa somente uma funcionalidade da biblioteca escolhida.
+	-random.random(minimo, máximo)
+
+
+-String em Python:
+
+	-Fatiamento:
+
+		-frase[9:13] delimitará do caractere 9 ao 13.
+		-frase[9:21:2] imprimira do caractere 9 ao 21, de dois em dois.
+		-frase[:5] delimitando de 0 a 5.
+		-frase[15:] delimitando do 15 ao final da string.
+		-frase[9::3] começa no 9 até o final, pulando de três em três
+
+	-Funções de analise:
+
+		-len(frase) retorna o quantidade de caracteres contidas em um string.
+		-frase.count('o') retorna a quantidade de 'o' que tem na cadeia de caracteres.
+		-frase.count('o',0 ,13) faz a contagem com fatiamento.
+		-frase.find('deo') retorna o índice onde a cadeia de caracteres começou. Caso   não exista a string, retorna -1.
+		-'Curso' in frase, existe curso em frase ? retorna true ou false.
+
+	-Funções de transformação:
+	
+		-frase.replace('Python','Android'), substitue python por android.
+		-frase.upper(), transforma a cadeia de caracteres para maisculo.
+		-frase.lower(), transforma a cadeia de caractares para menusculo.
+		-frase.capitalize() transforma todos os caracteres para menusculo, somente o primeiro fica maiusculo.
+		-frase.title(), transforma toda a cadeia de caracteres para menusculo e somente a primeira letra de cada palavra fica maiscula.
+		-frase.strip(), todos os espaços inúteis são removidos.
+		-frase.rstrip(), remove todos os espaços inúteis a direta.
+		-frase.lstrip(), remove todos os espaços inúteis a esquerda.
+
+	-Funções de divisão|junção:
+	
+		-frase.split(), divide a cadeia de caracteres, gerando uma lista.
+		-' '.join(frase), juntar todos elementos de frase com espaços, recebe uma lista.
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
