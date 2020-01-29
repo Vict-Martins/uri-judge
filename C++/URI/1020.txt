@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+main(){
+  
+int x,a,m,d;
+cin >> x;
+
+a = x/365;
+x = x%365;
+m = x/30;
+x = x%30;
+d = x;
+
+cout << a << " ano(s)" << endl;
+cout << m << " mes(es)" << endl;
+cout << d << " dia(s)" << endl;
+    
+    
+}
+
+

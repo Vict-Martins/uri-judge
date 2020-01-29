@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+using namespace std; 
+
+main(){
+    
+int A,B;
+double C,SAL;
+cin >> A >> B >> C;
+SAL = B*C;
+cout << "NUMBER = " << A << endl << "SALARY = U$ " << fixed << setprecision(2) << SAL << endl;
+    
+}

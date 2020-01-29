@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std; 
+
+main(){
+    
+int A,B,D,E;
+double C,F,VALOR;
+
+cin >> A >> B >> C >> D >> E >> F;
+VALOR = B*C + E*F;
+cout << "VALOR A PAGAR: R$ " << fixed << setprecision(2) << VALOR << endl;
+    
+}

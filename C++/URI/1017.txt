@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+
+main()
+{
+
+double t,d;
+cin >> t >> d;
+cout << fixed << setprecision(3) << (t*d)/12 << endl;
+
+}
+

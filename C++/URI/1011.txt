@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>
+using namespace std; 
+
+main(){
+    
+double raio, volume;
+cin >> raio;
+volume = (4/3.0)*3.14159*(raio*raio*raio);
+cout << "VOLUME = " << fixed << setprecision(3) << volume << endl;
+    
+}
