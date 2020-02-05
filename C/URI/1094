@@ -1,0 +1,30 @@
+#include <stdio.h>
+#define MAX 99999
+
+int main(){
+
+int q,i;
+double mc = 0 ,ms = 0,mr = 0,a,c,r,s,vc = 0,vr = 0,vs = 0,vt = 0;
+char u;
+scanf("%d",&q);
+for(i = 0 ; i < q ; i++){
+scanf("%lf %c",&a,&u);
+    vt += a;
+        if(u == 'C')
+            vc += a;
+        else if(u == 'S')
+            vs += a;
+        else if(u == 'R')
+            vr += a;
+}
+
+printf("Total: %d cobaias\n",(int)vt);
+printf("Total de coelhos: %d\n",(int)vc);
+printf("Total de ratos: %d\n",(int)vr);
+printf("Total de sapos: %d\n",(int)vs);
+printf("Percentual de coelhos: %.2lf %%\n",(vc/vt)*100);
+printf("Percentual de ratos: %.2lf %%\n",(vr/vt)*100);
+printf("Percentual de sapos: %.2lf %%\n",(vs/vt)*100);
+return 0;
+}
+

@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+main (){
+ int x=0,fat=0;
+
+	scanf("%d",&x);
+	
+
+	 for(fat = 1;x > 1;x = x-1){
+	 	fat = fat * x;	
+	 }
+
+ 	printf("%d\n",fat);
+
+
+	return 0;
+}

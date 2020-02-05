@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define MAX 99999
+int main(){
+int c,i,a[MAX],b[MAX],v[MAX];
+scanf("%d",&c);
+
+for( i = 0 ; i < c ; i++){
+
+    scanf("%d %d",&a[i],&b[i]);
+
+}
+for(i = 0 ; i < c ; i++){
+    if(b[i] == 0)
+        printf("divisao impossivel\n");
+    else if(a[i] == 0)
+        printf("0.0\n");
+    else
+        printf("%.1lf\n",(double)a[i]/b[i]);
+
+}
+return 0;
+}

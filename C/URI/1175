@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main (){
+
+int x = 0,v[20],aux = 0,y = 19;
+
+for(x = 0;x < 20;x++){
+    scanf("%d",&v[x]);
+}
+
+
+for(x = 19;x >= 0;x--){
+    printf("N[%d] = %d\n",19-x,v[x]);
+}
+
+
+
+return 0;
+}

@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main(){
+
+double A,B,C,x,x1,del;
+scanf("%lf %lf %lf",&A,&B,&C);
+del = B*B-4.0*A*C;
+x = (-B+sqrt(del))/(2.0*A);
+x1 = (-B-sqrt(del))/(2.0*A);
+
+if (A == 0){
+    printf("Impossivel calcular\n");
+}
+else if(del < 0){
+    printf("Impossivel calcular\n");
+}
+else{
+    printf("R1 = %.5lf\n",x);
+    printf("R2 = %.5lf\n",x1);
+}
+
+  return 0;
+}

@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+main(){
+
+int v[10],x = 0,n = 0;
+
+scanf("%d",&n);
+
+for(x = 0;x < 10;x++,n = n*2){
+
+  v[x] = n;
+
+  printf("N[%d] = %d\n",x,v[x]);
+}
+
+return 0;
+}

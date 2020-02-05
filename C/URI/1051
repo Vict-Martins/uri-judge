@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main(){
+
+    double A,IMPOSTO;
+    scanf("%lf",&A);
+
+    if(A>=0 && A<=2000){
+        printf("Isento\n");
+    }
+    if(A>2000 && A <= 3000){
+        A = A - 2000;
+        IMPOSTO = A * 0.08;
+        printf("R$ %.2lf\n",IMPOSTO);
+    }
+    if(A>3000 && A<=4500){
+        IMPOSTO = 1000 * 0.08;
+        A = A - 3000;
+        IMPOSTO = IMPOSTO + (A*0.18);
+        printf("R$ %.2lf\n",IMPOSTO);
+    }
+    if(A>4500){
+        IMPOSTO = 1000 * 0.08;
+        A = A - 3000;
+        IMPOSTO = IMPOSTO + (1500*0.18);
+        A = A - 1500;
+        IMPOSTO = IMPOSTO +(A*0.28);
+        printf("R$ %.2lf\n",IMPOSTO);
+
+    }
+
+return 0;
+}
+
+
+
+
+

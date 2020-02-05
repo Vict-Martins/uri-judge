@@ -1,0 +1,26 @@
+#include <stdio.h>
+#define MAX 99999
+
+int main(){
+
+int a[MAX],i,b=0;
+scanf("%d",&b);
+for(i = 0; i < b ; i++){
+    scanf("%d",&a[i]);
+}
+for(i = 0; i < b; i++){
+    if(a[i] == 0)
+        printf("NULL\n");
+    else if(a[i] > 0 && (a[i] % 2 == 1 || a[i] % 2 == -1))
+        printf("ODD POSITIVE\n");
+    else if(a[i] < 0 && (a[i] % 2 == 1 || a[i] % 2 == -1))
+        printf("ODD NEGATIVE\n");
+    else if(a[i] > 0 && a[i] % 2 == 0)
+        printf("EVEN POSITIVE\n");
+    else if(a[i] < 0 && a[i] % 2 == 0)
+        printf("EVEN NEGATIVE\n");
+
+    }
+return 0;
+}
+

@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main (){
+
+int x = 15,y = 0,vp[5],vi[5],p = 0,z = 0,u = 0;
+
+for(x = 0;x < 15;x++){
+
+    scanf("%d",&y);
+
+    if(y%2==0){
+        vp[p] = y;
+        p++;
+        if(p==5){
+            for(z = 0;z < 5;z++){
+                printf("par[%d] = %d\n",z,vp[z]);
+            }
+            p = 0;
+        }
+    }
+    else{
+        vi[u] = y;
+        u++;
+        if(u==5){
+            for(z = 0;z < 5;z++){
+                printf("impar[%d] = %d\n",z,vi[z]);
+            }
+            u = 0;
+        }
+    }
+
+}
+
+for(y = 0;y < u;y++){
+        printf("impar[%d] = %d\n",y,vi[y]);
+}
+for(y = 0;y < p;y++){
+        printf("par[%d] = %d\n",y,vp[y]);
+}
+
+return 0;
+}

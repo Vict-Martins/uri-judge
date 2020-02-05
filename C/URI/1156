@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+main (){
+
+
+    int x = 0, s = 1,xx=1;
+    double e = 0;
+
+
+    for(x = 1; x <= 19 ;x++,xx = xx*2,s = s+2){
+
+        e += (double)(s*1.00/xx);
+
+    }
+printf("%.2lf\n",e);
+
+return 0;
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main(){
+
+int a = 0,g = 0,i = 0,z = 0,c = 0,n = 0;
+
+for(i = 0; i < 5; ++i){
+    scanf("%d",&a);
+        if(a%2==0 || a == 0)
+            g++;
+        else
+            z++;
+
+        if(a > 0)
+            c++;
+        else if(a < 0 && a!= 0)
+            n++;
+}
+printf("%d valor(es) par(es)\n",g);
+printf("%d valor(es) impar(es)\n",z);
+printf("%d valor(es) positivo(s)\n",c);
+printf("%d valor(es) negativo(s)\n",n);
+
+
+return 0;
+}

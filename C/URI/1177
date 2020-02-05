@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main (){
+
+int x = 0,y = 0,z = 0,v[1000],k = 1,c = 0;
+
+scanf("%d",&y);
+
+for(x = 0;x < 1000;x++,k++){
+
+ v[x] = k - 1;
+
+ c++;
+
+  if(c==y){
+    k = 0;
+    c = 0;
+  }
+
+
+printf("N[%d] = %d\n",x,v[x]);
+}
+
+
+return 0;
+}

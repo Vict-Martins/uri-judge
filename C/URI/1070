@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main(){
+
+int q,X;
+scanf("%d",&q);
+
+for( X = q; X <= q + 11 ; X++ ){
+
+    if(X%2 == 1)
+        printf("%d\n",X);
+}
+
+
+return 0;
+}

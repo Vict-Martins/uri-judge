@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+main(){
+
+float v[100];
+int x = 0;
+
+
+for(x = 0;x < 100;x++){
+
+scanf("%f",&v[x]);
+
+    if(v[x]<=10)
+        printf("A[%d] = %.1f\n",x,v[x]);
+
+}
+
+return 0;
+}

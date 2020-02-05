@@ -1,0 +1,39 @@
+#include <stdio.h>
+#define MAX 99999
+int main(){
+int maior,menor;
+int N[MAX],M[MAX],i = 0, j = 0,soma = 0,C = 0;
+
+while(1){
+    scanf("%d %d",&M[C],&N[C]);
+
+    if(M[C] <= 0 || N[C] <= 0)
+       break;
+
+
+    C++;
+}
+for(i = 0 ; i < C ; i++){
+        soma = 0;
+    if(M[i]>N[i]){
+        maior = M[i];
+        menor = N[i];
+    }
+    else{
+        maior = N[i];
+        menor = M[i];
+    }
+
+        for(j = menor; j <= maior ; j++){
+            soma += j;
+            printf("%d ",j);
+        }
+printf("Sum=%d\n",soma);
+}
+
+
+
+
+
+return 0;
+}

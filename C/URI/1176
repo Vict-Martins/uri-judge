@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main (){
+
+long long int v[60],x = 0;
+int c = 0,n = 0,z = 0;
+v[0] = 0;
+v[1] = 1;
+v[2] = 1;
+
+
+scanf("%d",&c);
+
+for(x = 2;x <= 60;x++){
+        v[x+1] = v[x] + v[x-1];
+}
+
+for(x = 1;x <= c;x++){
+
+    scanf("%d",&n);
+
+    printf("Fib(%d) = %lld\n",n,v[n]);
+
+}
+
+
+
+return 0;
+}

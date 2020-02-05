@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+int main(){
+int i = 0 , x = 0 , y = 0, s = 0,maior,menor;
+
+scanf("%d",&x);
+scanf("%d",&y);
+
+if(x>y){
+    maior = x;
+    menor = y;
+}
+else{
+    maior = y;
+    menor = x;
+}
+
+for( i = menor ; i <= maior ; i++ ){
+
+    if(i%13==0){
+
+    }
+    else
+        s += i;
+
+}
+printf("%d\n",s);
+
+
+return 0;
+}

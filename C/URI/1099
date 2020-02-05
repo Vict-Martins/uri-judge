@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main(){
+
+int N,i,z,j,maior,menor;
+scanf("%d",&N);
+int XY,X[N],Y[N];
+
+for(i = 0;i < N; i++){
+    scanf("%d %d",&X[i],&Y[i]);
+}
+for(z = 0; z < N; z++){
+    XY = 0;
+    if(Y[z] > X[z]){
+        maior = Y[z];
+        menor = X[z];
+    }
+    else{
+        maior = X[z];
+        menor = Y[z];
+    }
+        for(j = menor + 1; j < maior; j++){
+            if(j%2==1){
+                XY += j;
+            }
+
+        }
+        printf("%d\n",XY);
+}
+
+
+return 0;
+}

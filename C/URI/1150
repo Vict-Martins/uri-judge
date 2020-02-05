@@ -1,0 +1,29 @@
+#include<stdio.h>
+#define MAX 99999
+int main(){
+
+
+    int x = 0,z = 0,a = 0,b = 0,i = 0;
+
+    scanf("%d",&x);
+
+    while(1){
+        scanf("%d",&z);
+        if(z>x)
+            break;
+    }
+    for(i = x ; i < MAX ; i++){
+
+     a += i;
+
+     b++;
+
+     if(a > z)
+        break;
+
+
+    }
+    printf("%d\n",b);
+
+            return 0;
+}

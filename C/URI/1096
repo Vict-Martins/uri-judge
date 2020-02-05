@@ -1,0 +1,28 @@
+#include <stdio.h>
+#define MAX 99999
+
+int main(){
+
+int i,a=1,b=7;
+for(i = 0 ; i < 15 ; i++,b--){
+    printf("I=%d J=%d\n",a,b);
+    if(i==2){
+    a+=2;
+    b = 8;
+    }
+    if(i==5){
+    a+=2;
+    b = 8;
+    }
+    if(i==8){
+    a+=2;
+    b = 8;
+    }
+    if(i==11){
+    a+=2;
+    b = 8;
+    }
+}
+return 0;
+}
+

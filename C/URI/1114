@@ -1,0 +1,23 @@
+#include <stdio.h>
+#define MAX 99999
+int main(){
+char e[MAX] = "Senha Invalida",v[MAX] = "Acesso Permitido";
+int M[MAX],i = 0,C = 0;
+
+while(1){
+    scanf("%d",&M[C]);
+
+    if(M[C] == 2002){
+       break;
+}
+
+C++;
+}
+for(i = 0 ; i <= C ; i++){
+      if(M[i] != 2002)
+        printf("%s\n",e);
+      else
+        printf("%s\n",v);
+}
+return 0;
+}

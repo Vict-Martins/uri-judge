@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define MAX 99999
+
+int main(){
+
+int i,a=1,b=60;
+for(i = 0 ; i <= 12 ; i++){
+    printf("I=%d J=%d\n",a,b);
+    a+=3;
+    b-=5;
+}
+return 0;
+}
+

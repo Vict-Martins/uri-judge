@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+
+int x=0,somap=0,i=0,c;
+
+while(1){
+
+   scanf("%d",&x);
+   somap=0;
+   if(x==0)
+        break;
+
+        while(1){
+                if(x%2==0){
+                    somap+=x;
+                    i++;
+                    x++;
+
+                }
+                else
+                    x++;
+
+        if(i==5)
+            break;
+        }
+i=0;
+printf("%d\n",somap);
+}
+
+return 0;
+}

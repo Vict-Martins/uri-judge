@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+int A,B;
+double X;
+
+
+scanf("%i %i %lf",&A,&B,&X);
+
+printf("NUMBER = %i\nSALARY = U$ %.2lf\n",A,(double)B*X);
+    return 0;
+}

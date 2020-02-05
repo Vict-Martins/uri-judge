@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+double PI,R,FORMULA;
+PI = 3.14159;
+scanf("%lf",&R);
+FORMULA = 4.0/3.0*PI*(R*R*R);
+
+printf("VOLUME = %.3lf\n",FORMULA);
+
+
+return 0;
+}

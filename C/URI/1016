@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main(){
+
+int MINUTOS;
+
+scanf("%d",&MINUTOS);
+MINUTOS = 2*MINUTOS;
+
+printf("%d minutos\n",MINUTOS);
+
+
+return 0;
+}

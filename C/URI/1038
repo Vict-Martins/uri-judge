@@ -1,0 +1,44 @@
+    #include <stdio.h>
+    #include <math.h>
+
+
+    int main(){
+
+    int A,B;
+    scanf("%d %d",&A,&B);
+
+    switch (A)
+{
+   case 1:
+     A = 4;
+     A *= B;
+     printf("Total: R$ %.2lf\n",(double)A);
+   break;
+
+   case 2:
+     A = 4.00;
+     A *= B;
+     printf("Total: R$ %.2lf\n",(double)A+(0.50*B));
+   break;
+
+   case 3:
+     A = 5;
+     A *= B;
+     printf("Total: R$ %.2lf\n",(double)A);
+   break;
+
+   case 4:
+     A = 2;
+     A *= B;
+     printf("Total: R$ %.2lf\n",(double)A);
+   break;
+
+   case 5:
+     A = 1.50;
+     A *= B;
+     printf("Total: R$ %.2lf\n",(double)A+(0.50*B));
+   break;
+}
+
+      return 0;
+    }

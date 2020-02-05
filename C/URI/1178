@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main (){
+
+double N[100],k = 0,y = 0;
+
+int x = 0,z = 0;
+    scanf("%lf",&y);
+    k = y;
+for(x = 0;x < 100;x++,k = k/2){
+
+    N[x] = k;
+    printf("N[%d] = %.4lf\n",x,N[x]);
+
+}
+
+
+return 0;
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main (){
+
+int x = 0,i = 0,o = 0,z = 0,s = 0;
+
+scanf("%d",&x);
+
+for(i = 0;i < x;i++){
+
+    scanf("%d",&o);
+
+    for(z = 1;z < o;z++){
+
+        if(o%z==0){
+            s += z;
+        }
+
+    }
+        if(s == o)
+            printf("%d eh perfeito\n",o);
+        else
+            printf("%d nao eh perfeito\n",o);
+s = 0;
+}
+
+
+return 0;
+}

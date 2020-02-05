@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char X[10];
+    double A,B;
+
+    scanf("%s %lf %lf",X,&A,&B);
+
+    printf("TOTAL = R$ %.2lf\n",A+(B*0.15));
+
+return 0;
+}
