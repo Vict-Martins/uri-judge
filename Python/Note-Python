@@ -58,6 +58,18 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 	
 		-frase.split(), divide a cadeia de caracteres, gerando uma lista.
 		-' '.join(frase), juntar todos elementos de frase com espaços, recebe uma lista.
+	
+-Cores no terminal:
+	
+	-\033['style';'text';background'm . Exemplo \033[0;33;44m
+	-Códigos para estilo são: 0,1,4,7. '0' nada, '1' negrito, 4 sublinhado, 7 negative.
+	-Códigos para cores de texto são: 30 a 37. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
+	-Códigos para Background são: 40 a 47. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
+	-Exemplo: print('\033[7;31;43mOlá, mundo!\033[m')
+-Condições aninhadas
+	
+	-
+
 		
 		
 		
