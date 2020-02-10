@@ -1,0 +1,27 @@
+soma = 0
+e = int(input(''))
+for i in range(e):
+  s = str(input(''))
+  for x in range(len(s)):
+    if(s[x] == '0'):
+      soma+=6
+    elif(s[x] == '1'):
+      soma+=2
+    elif(s[x] == '2'):
+      soma+=5
+    elif(s[x] == '3'):
+      soma+=5
+    elif(s[x] == '4'):
+      soma+=4
+    elif(s[x] == '5'):
+      soma+=5
+    elif(s[x] == '6'):
+      soma+=6
+    elif(s[x] == '7'):
+      soma+=3
+    elif(s[x] == '8'):
+      soma+=7
+    elif(s[x] == '9'):
+      soma+=6
+  print('{} leds'.format(soma))
+  soma = 0
