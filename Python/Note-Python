@@ -66,9 +66,11 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 	-Códigos para cores de texto são: 30 a 37. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
 	-Códigos para Background são: 40 a 47. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
 	-Exemplo: print('\033[7;31;43mOlá, mundo!\033[m')
--Condições aninhadas
+-Condições
 	
-	-
+	-if, elif, else
+
+
 
 		
 		
