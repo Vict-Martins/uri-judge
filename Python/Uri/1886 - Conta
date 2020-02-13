@@ -1,0 +1,7 @@
+n = int(input(''))
+for i in range(n):
+  e = int(input(''))
+  if e%2 == 0:
+    print('0')
+  else:
+    print('1')

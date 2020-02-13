@@ -23,6 +23,7 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 	-import , importada toda uma biblioteca
 	-frommathimportsqrt importa somente uma funcionalidade da biblioteca escolhida.
 	-random.random(minimo, máximo)
+	-from time import sleep, sleep(nnúmero), adiciona delay
 
 
 -String em Python:
@@ -34,6 +35,7 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 		-frase[:5] delimitando de 0 a 5.
 		-frase[15:] delimitando do 15 ao final da string.
 		-frase[9::3] começa no 9 até o final, pulando de três em três
+		-frase[::-1], e = olá, s = álo, inverteu a string
 
 	-Funções de analise:
 
@@ -66,9 +68,16 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 	-Códigos para cores de texto são: 30 a 37. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
 	-Códigos para Background são: 40 a 47. branco, vermelho, verde, amarelo, azul, roxo, verde marinho, cinza.
 	-Exemplo: print('\033[7;31;43mOlá, mundo!\033[m')
--Condições
+
+-Condições:
 	
 	-if, elif, else
+
+-Estrutura de repetição
+
+	-for, while.
+
+
 
 
 
