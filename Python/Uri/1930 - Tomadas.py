@@ -1,0 +1,6 @@
+a, b, c, d = input('').split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+print(a-1+b-1+c-1+d)

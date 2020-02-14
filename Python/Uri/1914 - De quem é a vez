@@ -1,0 +1,19 @@
+c = int(input(''))
+for i in range(c):
+  a, b, c, d = input('').split()
+  a = str(a)
+  b = str(b)
+  c = str(c)
+  d = str(d)
+  e, f = input('').split()
+  e = int(e)
+  f = int(f)
+  q = e+f
+  if q%2 == 0 and b == 'PAR':
+    print(a) 
+  elif q%2 == 1 and d == 'IMPAR':
+    print(c)
+  if q%2 == 0 and b == 'IMPAR':
+    print(c) 
+  elif q%2 == 1 and d == 'PAR':
+    print(a)
