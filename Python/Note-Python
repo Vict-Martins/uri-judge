@@ -44,6 +44,8 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 		-frase.count('o',0 ,13) faz a contagem com fatiamento.
 		-frase.find('deo') retorna o índice onde a cadeia de caracteres começou. Caso   não exista a string, retorna -1.
 		-'Curso' in frase, existe curso em frase ? retorna true ou false.
+		-'Enumerate(variável)' dá da posição. obs: colocar no for duas váriaveis, sendo uma como contador.
+		-'sorted' organiza crescente e retorna.
 
 	-Funções de transformação:
 	
@@ -76,6 +78,10 @@ end = ' ',  quando se tem dois prints, é usado para não quebrar a linha.
 -Estrutura de repetição
 
 	-for, while.
+
+-Tuplas, lista, dicionário:
+	
+	- As tuplas são imutáveis ' ex: lanche = ('hambúrguer', 'Suco', 'Pizza', 'Pudim') ' dupla usa parenteses.
 
 
 
