@@ -1,0 +1,8 @@
+// comentário
+
+
+/*
+comentário
+multiplo
+*/
+
