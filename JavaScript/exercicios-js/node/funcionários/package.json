@@ -1,0 +1,21 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "CursoUdemy",
+  "main": "outro.js",
+  "scripts": {
+    "test": "git repository:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jndfasdoansdjoansda"
+  },
+  "keywords": [
+    "dkmpasmdkpamdkmps"
+  ],
+  "author": "daikmpsdapkmsd",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
