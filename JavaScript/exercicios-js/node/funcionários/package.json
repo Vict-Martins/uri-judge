@@ -2,8 +2,9 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "CursoUdemy",
-  "main": "outro.js",
+  "main": "funcionários.js",
   "scripts": {
+    "start": "nodemon",
     "test": "git repository:"
   },
   "repository": {
