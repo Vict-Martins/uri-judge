@@ -1,3 +1,5 @@
+#Diversas escalas de Cinza
+
 import cv2
 import numpy as np
 

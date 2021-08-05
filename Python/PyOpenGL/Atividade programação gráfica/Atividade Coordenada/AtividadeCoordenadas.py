@@ -1,3 +1,5 @@
+#O seguinte código utiliza matriz com a seguinte finalidade: Alterar a escala, translardar e rotacionar.
+
 import OpenGL
 import math
 from OpenGL.GL import *

@@ -1,3 +1,5 @@
+#Gerando Histograma da imagem
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as pl

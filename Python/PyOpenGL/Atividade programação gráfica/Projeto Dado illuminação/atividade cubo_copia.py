@@ -1,3 +1,7 @@
+#Projeto De um Dado que gira e mostra uma das faces de modo aleatório.
+#As teclas A,S,D,W são utlizadas para modever o dado no plano, já as teclas c,v são utilizados para movimentar(da impressão de profundidade) no plano.
+#Nesse Código utiliza-se illuminação pontiforme
+
 from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import *

@@ -1,3 +1,5 @@
+#Objetos Wire e Solid
+
 import OpenGL
 import math
 import pygame

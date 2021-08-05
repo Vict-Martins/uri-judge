@@ -1,3 +1,4 @@
+#Objetos Wire e Solid com controle via teclado
 import OpenGL
 from OpenGL.GL import *
 from OpenGL.GLUT import *

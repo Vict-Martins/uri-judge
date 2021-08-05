@@ -1,3 +1,6 @@
+#O seguinte projeto é uma simulação de um buraco negro. Não somente, mas diversos cubos são gerados de formas aleatória.
+
+
 import pygame
 from pygame.locals import *
 from OpenGL.GL import *

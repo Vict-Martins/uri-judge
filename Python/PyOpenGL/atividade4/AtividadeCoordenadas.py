@@ -1,3 +1,5 @@
+#Modificando Escala, translação e rotação
+
 import OpenGL
 import math
 from OpenGL.GL import *
