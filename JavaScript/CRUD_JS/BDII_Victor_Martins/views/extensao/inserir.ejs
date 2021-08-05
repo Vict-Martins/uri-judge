@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Inserir Dados</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body class="container" style="margin-top: 50px;">
+
+<% if (messages.error) { %>
+<div class="alert alert-danger" role="alert"><%- messages.error %></div>
+<% } %>
+
+<div class="card">
+
+<div class="card-header"> Inserir Dados </div>
+<div class="card-body">
+<form action="/extensao/adicionar" method="post">
+<div class="form-group">
+<label>FK_Pessoa:</label>
+<input type="text" class="form-control" name="FK_Pessoa" value="<%= FK_Pessoa %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+<label>FK_Cadastra:</label>
+<input type="text" class="form-control" name="FK_Cadastra" value="<%= FK_Cadastra %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+<label>nota_avaliacao:</label>
+<input type="text" class="form-control" name="nota_avaliacao" value="<%= nota_avaliacao %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>discricao_avaliacao:</label>
+    <input type="text" class="form-control" name="discricao_avaliacao" value="<%= discricao_avaliacao %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>data_avaliacao:</label>
+    <input type="text" class="form-control" name="data_avaliacao" value="<%= data_avaliacao %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>data_contrato:</label>
+    <input type="text" class="form-control" name="data_contrato" value="<%= data_contrato %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>valor_mensal:</label>
+    <input type="text" class="form-control" name="valor_mensal" value="<%= valor_mensal %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>status:</label>
+    <input type="text" class="form-control" name="status" value="<%= status %>" autocomplete="off" required>
+</div>
+<div class="form-group">
+    <label>validade:</label>
+    <input type="text" class="form-control" name="validade" value="<%= validade %>" autocomplete="off" required>
+</div>
+
+<div class="form-group">
+<input type="submit" class="btn btn-info" value="Inserir"/>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
