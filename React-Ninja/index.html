@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="app"></div>
+    <div id="app1"></div>
+    <div id="app2"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    
+    <!-- conhecendo JSX -->
+    <script type="text/babel">
+        // Primeira forma de declarar e renderizar
+        var h1 = React.createElement('div', null, [
+            React.createElement( 'span' , null, React.createElement( 'i' , null, 'Italico')), 
+            React.createElement( 'span' , null, 'texto do span2')
+        ]) // criar elemento com react
+        ReactDOM.render(h1, document.getElementById('app')) // renderizar o elemento no DOM
+        
+        // Segunda forma e mais atual de criar e renderizar elemento
+        ReactDOM.render(<h1>Mostrando mensagem React</h1>, document.getElementById('app1'))
+
+        // Criando componente JSX
+        var Title = React.createClass({
+            render: function () {
+                return <h1>
+                        <p>Aninhando</p>
+                        <span> Criando Class </span>
+                        <p>Aninhando2</p>
+                        </h1>
+            }
+        })
+        ReactDOM.render(
+            <Title />, document.getElementById('app2')
+        )
+
+
+    </script>
+</body>
+</html> 
