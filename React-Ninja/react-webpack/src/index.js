@@ -1,1 +1,4 @@
-console.log('webpack funcionando')
+'use strict'
+
+var sum = require('./app')
+console.log(sum(1, 2))
