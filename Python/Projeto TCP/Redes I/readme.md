@@ -1,7 +1,4 @@
-UESC
-Redes I
-Instruções Socket
-Victor Martins
+UESC, Redes 1, Victor Martins
 
 * Instruções
 
