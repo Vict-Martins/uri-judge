@@ -1,4 +1,4 @@
-UESC, Redes 1, Victor Martins
+UESC, Redes 1, Victor Martins, Vinicius, Caio Teusla.
 
 * Instruções
 
