@@ -18,9 +18,9 @@ public class URI_1041 {
         }else if(p1>0&&p2<0) {
             System.out.println("Q4");
         }else if(p1==0&&p2!=0){
-            System.out.println("Eixo X");
-        }else if(p1!=0&&p2==0){
             System.out.println("Eixo Y");
+        }else if(p1!=0&&p2==0){
+            System.out.println("Eixo X");
         }
         else {
             System.out.println("Origem");
